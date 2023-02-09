@@ -31,8 +31,19 @@ body {
     /* border-radius: .25rem;*/
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: rgba(182, 231, 243, 1.0);
  }
+
+.cola-card {
+    background-color: rgba(255, 207, 214, 0.5) !important;
+}
+
+.sprite-card {
+    background-color: rgba(215, 255, 207, 0.5) !important;
+}
+
+.pepper-card {
+    background-color: rgba(189, 151, 155, 0.5) !important;
+}
 
 /* CSS rule to style the mobile logo */
 .logo {
