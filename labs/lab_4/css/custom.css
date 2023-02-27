@@ -31,6 +31,10 @@ body {
  /*border: 0px solid rgba(0,0,0,0) !important;*/
 }
 
+.card-header {
+
+}
+
 .cola-card {
     background-color: rgba(255, 207, 214, 0.5) !important;
 }
@@ -271,7 +275,7 @@ height: 300px;
 
     /* Added this to emulate the nav-bar link styling */
     .nav-tabs .nav-link:hover {
-        color: green;
+        color: black;
         border: 1px solid transparent;
     }
 
@@ -307,6 +311,31 @@ height: 300px;
     line-height: 1.2;
     white-space: normal !important;
 }
+
+.gallery-header {
+    color: white;
+}
+
+.gallery-header:hover {
+    color: black;
+    border: 1px solid transparent;
+}
+
+.model3D  {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1.0);
+    padding: 2px;
+    height: 200px;
+}
+
+X3D, x3d {
+    border-radius: 5px;
+    border: 1px solid rgba(255, 0, 0, 1.0);
+    width: 100%;
+    height: 100%
+}
+
 
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -367,6 +396,10 @@ display: inline;
         white-space: normal !important;
     }
 
+ .model3D  {
+        height: 310px;
+    }
+
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -377,6 +410,10 @@ display: inline;
         line-height: 1.2;
         white-space: normal !important;
     }
+
+        .model3D  {
+            height: 380px;
+        }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -387,10 +424,18 @@ display: inline;
         line-height: 1.2;
         white-space: normal !important;
     }
+
+   .model3D  {
+        height: 450px;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+.model3D  {
+        height: 550px;
+    }
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { ... }
