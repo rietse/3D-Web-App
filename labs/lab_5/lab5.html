@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Javascript Swap Page Contents Function</title>
+
+    <script type="text/javascript">
+
+    var counter=0;
+
+    function swap(selected) {
+
+    document.getElementById('home').style.display = 'none';
+    document.getElementById('coke').style.display = 'none';
+    document.getElementById('sprite').style.display = 'none';
+    document.getElementById('pepper').style.display = 'none';
+
+    document.getElementById(selected).style.display = 'block';
+    }
+
+    </script>
+
+</head>
+
+<body>
+    <p>
+        <a href="javascript:swap('home')">Home</a>
+        <a href="javascript:swap('coke')">Coca Cola</a>
+        <a href="javascript:swap('sprite')">Sprite</a>
+        <a href="javascript:swap('pepper')">Dr Pepper</a>
+    </p>
+
+    <div id="home"><b>Home:</b> Welcome to my basic 3D App</div>
+    <div id="coke" style="display:none"><b>Coca Cola:</b> Check out my Coke 3D model</div>
+    <div id="sprite" style="display:none"><b>Sprite:</b> Check out my Sprite 3D model</div>
+    <div id="pepper" style="display:none"><b>Dr Pepper:</b> Check out my Dr Pepper 3D model</div>
+
+</body>
+</html>
