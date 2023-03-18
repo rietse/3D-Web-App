@@ -10,7 +10,7 @@ $(document).ready(function() {
     //temp stores server response while code is generated
     var response;
     //set up the path to the PHP function that reads the image directory to find the thumbnail file names
-    var send = "scripts/php/hook.php";
+    var send = "scripts/hook.php";
     //open the connection to the web server
     xmlHttp.open("GET",send,true);
     //tell server that client has no outgoing message i.e. we are sending nothing to the server

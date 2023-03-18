@@ -28,7 +28,7 @@ body {
 
 /* CSS rules for the main_text IDs */
 #main_3d_image {
-    background-image: url(../assets/images/site_images/main_3D.jpg);
+    background-image: url(../assets/images/main_3D.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
