@@ -1,6 +1,6 @@
 <?php
 //specify the path to the thumbnail images
-$directory = '../assets/images';
+$directory = '../assets/images/gallery_images';
 //only load files with following extensions
 $allowed_extensions = array('jpg','jpeg','gif','png');
 // an array used to separate the extension from each file
@@ -21,7 +21,7 @@ while ($file = readdir($dir_handle)) {
         if (in_array($extension,$allowed_extensions));
         {
             //build response string using the ~ symbol as string separator
-            $response .= $directory.'/'.$file.'~';
+            $response .= '/'.$file.'~';
         }
     }
 }
