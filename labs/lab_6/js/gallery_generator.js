@@ -49,8 +49,7 @@ $(document).ready(function() {
             //htmlCode += '</tr>';
             //write the HTML code into the gallery
             //document.getElementById('gallery').innerHTML = htmlCode;
-            document.getElementById('gallery_coke').innerHTML = htmlCode;
-            document.getElementById('gallery_sprite').innerHTML = htmlCode;
+            document.getElementById('gallery').innerHTML = htmlCode;
         }
     }
 });

@@ -27,6 +27,11 @@
     "title": "Sprite",
     "subTitle":"First introduced in 1961",
     "description":"Crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories."
-
+  }, {
+    "x3dModelTitle": "Dr. Pepper X3D Model",
+    "x3dCreationMethod": "This X3D model of the Dr. Pepper cup has been created in Cinema 4D, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+    "title": "Dr. Pepper",
+    "subTitle":"23 Fruit Flavours",
+    "description":"Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885."
   }]
 }

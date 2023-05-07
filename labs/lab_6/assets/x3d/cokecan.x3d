@@ -2,6 +2,8 @@
 <!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
 <X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
   <Scene DEF='scene'>
+  
+	<NavigationInfo DEF="headlight" headlight="true" type="EXAMINE"></NavigationInfo>
     <Transform DEF='Light_5' translation='3164.84 0 0'>
       <PointLight DEF='LIGHT_Light_5' radius='1e+008'/>
     </Transform>
@@ -20,25 +22,21 @@
     <Transform DEF='Light' translation='0 0 -1609.46'>
       <PointLight DEF='LIGHT_Light' radius='1e+008'/>
     </Transform>
-	<Transform DEF='Front' translation='-1500 0 0'>
-      <Viewpoint DEF='View_Front' description='Front' orientation='0 -1 0 1.5708' position='0 0 0' fieldOfView='0.927295'/>
-    </Transform>
-	<Transform DEF='Top' rotation='0 0 -1 1.5708' translation='0 1500 0'>
-      <Viewpoint DEF='View_Top' description='Top' jump='false' orientation='0 -1 0 1.5708' position='0 0 0' fieldOfView='0.927295'/>
-    </Transform>
-    <Transform DEF='Right' rotation='0 1 0 1.5708' translation='0 0 1500'>
-      <Viewpoint DEF='View_Right' description='Right' jump='false' orientation='0 -1 0 1.5708' position='0 0 0' fieldOfView='0.927295'/>
-    </Transform>
-    <Transform DEF='Left' rotation='0 -1 0 1.5708' translation='0 0 -1500'>
-      <Viewpoint DEF='View_Left' description='Left' jump='false' orientation='0 -1 0 1.5708' position='0 0 0' fieldOfView='0.927295'/>
-    </Transform>
-    <Transform DEF='Back' rotation='0 1 0 3.14159' translation='1500 0 0'>
-      <Viewpoint DEF='View_Back' description='Back' jump='false' orientation='0 -1 0 1.5708' position='0 0 0' fieldOfView='0.927295'/>
-    </Transform>
-    <Transform DEF='Front' translation='-1500 0 0'>
-      <Viewpoint DEF='View_Front' description='Front' jump='false' orientation='0 -1 0 1.5708' position='0 0 0' fieldOfView='0.927295'/>
-    </Transform>
+
+    <Viewpoint DEF='CameraFront' description='CameraFront' orientation='0 -1 0 1.5708' position='-1500 0 0' fieldOfView='0.927295'/>
+
+    <Viewpoint DEF='CameraBack' description='CameraBack' jump='false' orientation='0 1 0 1.5708' position='1500 0 0' fieldOfView='0.927295'/>
+
+    <Viewpoint DEF='CameraTop' description='CameraTop' jump='false' orientation='0.5 0.5 0.5 4.25' position='0 1500 0' fieldOfView='0.927295'/>
+
+    <Viewpoint DEF='CameraBottom' description='CameraBottom' jump='false' orientation='0.5 -0.5 0.5 2.1' position='0 -1500 0' fieldOfView='0.927295'/>
+
+    <Viewpoint DEF='CameraRight' description='CameraRight' jump='false' orientation='0 -1 0 0' position='0 0 1500' fieldOfView='0.927295'/>
+
+    <Viewpoint DEF='CameraLeft' description='CameraLeft' jump='false' orientation='0 1 0 3.1416' position='0 0 -1500' fieldOfView='0.927295'/>
+
     <Transform DEF='Camera_Target_1'/>
+	
     <Transform DEF='Lathe_1' rotation='0 1 0 0.974768'>
       <Shape>
         <Appearance DEF='MAT_Mat'>
@@ -52,9 +50,9 @@
       </Shape>
     </Transform>
     <Transform DEF='Lathe'/>
-    <TimeSensor DEF='Timer' cycleInterval='2' loop='true'/>
+    <TimeSensor DEF='RotationTimer' cycleInterval='2' loop='true' enabled='false'/>
 	<OrientationInterpolator DEF='ROTKEY_Lathe_1' key='0.0 0.33 0.66 1.0' keyValue='0 1 0 1 0 1 0 2.75 0 1 0 4.75 0 1 0 1'/>
-    <ROUTE fromNode='Timer' fromField='fraction_changed' toNode='ROTKEY_Lathe_1' toField='set_fraction'/>
+    <ROUTE fromNode='RotationTimer' fromField='fraction_changed' toNode='ROTKEY_Lathe_1' toField='set_fraction'/>
     <ROUTE fromNode='ROTKEY_Lathe_1' fromField='value_changed' toNode='Lathe_1' toField='set_rotation'/>
   </Scene>
 </X3D>
