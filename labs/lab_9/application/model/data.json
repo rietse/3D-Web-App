@@ -1,0 +1,44 @@
+{
+  "pageTextData": [ {
+    "title": "Coca Cola Great Britain",
+    "subTitle":"Founded by Dr John S Pemberton",
+    "description": "The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+  }, {
+    "title": "History of Coca Cola",
+    "subTitle":"Atlanta Beginnings",
+    "description": "It was 1886, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special!"
+  }, {
+    "title": "Sprite",
+    "subTitle":"First introduced in 1961",
+    "description":"Crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories."
+  }, {
+    "title": "Dr Pepper",
+    "subTitle":"23 Fruit Flavours",
+    "description": "Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885."
+  }, {
+    "x3dModelTitle": "Coca Cola X3D Model",
+    "x3dCreationMethod": "This X3D model of the Coca Cola can has been created in Cinema 4D, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+    "title": "History of Coca Cola",
+    "subTitle":"Atlanta Beginnings",
+    "description": "It was 1886, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special!"
+  }, {
+    "x3dModelTitle": "Sprite X3D Model",
+    "x3dCreationMethod": "This X3D model of the Sprite bottle has been created in Cinema 4D, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+    "title": "Sprite",
+    "subTitle":"First introduced in 1961",
+    "description":"Crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories."
+  }, {
+    "x3dModelTitle": "Dr. Pepper X3D Model",
+    "x3dCreationMethod": "This X3D model of the Dr. Pepper cup has been created in Cinema 4D, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+    "title": "Dr. Pepper",
+    "subTitle":"23 Fruit Flavours",
+    "description":"Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885."
+  }, {
+    "x3dModelTitle": "Fanta X3D Model",
+    "x3dCreationMethod": "This Fanta label is applied to the textures of the three models, using code adopted from <a href='https://benskitchen.com/x3dom/cubetex.php'>Ben's Kitchen</a>",
+    "title": "Bold Orange Fun",
+    "subTitle":"23 Fruit Flavours",
+    "description":"Bright, bubbly, instantly refreshing and great tasting. Fanta is made with 100% natural flavours and is caffeine free. Fanta is available in a variety of real fruit flavours."
+
+  }]
+}
