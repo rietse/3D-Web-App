@@ -46,8 +46,8 @@
                 </li>
                 <li class="nav-item">
                     <a id="navAbout" class="nav-link" href="#" data-toggle="popover" data-trigger="hover"
-                       data-placement="bottom" title="About Web 3D Applications"
-                       data-content="3D Apps is a final year and postgraduate module ...">About</a>
+                       data-placement="bottom" title="About, Statement, References"
+                       data-content="Find Statement of Originality and References here...">About</a>
                 </li>
 
                 <!--Dropdown-->
@@ -152,17 +152,37 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center">
-                <p>Fadeaway tabs from <a href="https://getbootstrap.com/docs/4.4/components/navs/">Bootstrap documentation</a></p>
-            </div>
         </div>
         <br>
         </div>
 
     <div id="about">
         <h3 class="text-center">About</h3>
-        <p class="text-center">3D Apps is a final year and postgraduate module about creating a 'responsive and mobile first Web 3D application' (3D App),
-        where a user is able to manipulate 3D objects using X3DOM. Most of this website is adopted from the <a href="http://users.sussex.ac.uk/~martinwh/3dapp/labs/">Live Feedback Site</a>.</p>
+        <p class="text-center">3D Apps is a final year and postgraduate module about creating a
+        'responsive and mobile first Web 3D application' (3D App), where a user is able to manipulate 3D objects using
+        X3DOM. Most of this website is adopted from the
+        <a href="http://users.sussex.ac.uk/~martinwh/3dapp/labs/">Live Feedback Site</a>.</p>
+
+        <h3 class="text-center">Statement of Originality</h3>
+        <p class="text-center">These web pages are submitted as part requirement for the degree of
+        Computing for Digital Media at the University of Sussex.  They are the product of my own labour except where
+        indicated in the web page content. These web pages or contents may be freely copied and distributed provided
+        the source is acknowledged.</p>
+
+        <h3 class="text-center">References</h3>
+        <p class="text-center"> Coca Cola background image on home screen from
+        <a href="https://thebrandhopper.com/2023/04/01/marketing-mix-and-porters-five-forces-of-coca-cola/">
+        The Brand Hopper</a></p>
+
+        <p class="text-center">Fadeaway tabs from <a href="https://getbootstrap.com/docs/4.4/components/navs/">Bootstrap documentation</a></p>
+
+        <p class="text-center">Texture changing on X3D Models from <a href="https://benskitchen.com/x3dom/cubetex.php">Ben's Kitchen</a></p>
+
+        <p class="text-center">Collapsable button groups from <a href="https://getbootstrap.com/docs/4.0/components/collapse/">Bootstrap documentation</a></p>
+
+        <p class="text-center">Javascript lightbox from <a href="https://fslightbox.com/">fslightbox</a></p>
+
+
     </div>
 
     <!--x3d models & 3d image gallery-->
@@ -328,7 +348,7 @@
 
                                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                                     <div class="card-body">
-                                        <div class="card-Title x3dCamera_Subtitle drinksText">
+                                        <div class="card-Title drinksText">
                                             <h3>Camera Views</h3>
                                         </div>
                                         <div>
@@ -339,7 +359,7 @@
                                             <button type="button" class="btn btn-outline-danger btn-responsive" onclick="cameraTop();">Top</button>
                                             <button type="button" class="btn btn-outline-secondary btn-responsive" onclick="cameraBottom();">Bottom</button>
                                         </div>
-                                        <div class="card-text x3dCameraDescription drinksText">
+                                        <div class="card-text drinksText">
                                             <p>These buttons select a limited range of X3D model viewpoints.</p>
                                         </div>
                                     </div>
@@ -355,14 +375,14 @@
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                     <div class="card-body">
-                                        <div class="card-Title x3dAnimationSubtitle drinksText">
+                                        <div class="card-Title drinksText">
                                             <h3>Animation Options</h3>
                                         </div>
                                         <button type="button" class="btn btn-outline-primary btn-responsive" onclick="spinX();">RotX</button>
                                         <button type="button" class="btn btn-outline-success btn-responsive" onclick="spinY();">RotY</button>
                                         <button type="button" class="btn btn-outline-info btn-responsive" onclick="spinZ();">RotZ</button>
                                         <button type="button" class="btn btn-outline-dark btn-responsive" onclick="stopRotation();">Stop</button>
-                                        <div class="card-text x3dAnimationDescription drinksText">
+                                        <div class="card-text drinksText">
                                             <p>These buttons select a range of X3D animation options</p>
                                         </div>
                                     </div>
@@ -378,15 +398,15 @@
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                     <div class="card-body">
-                                        <div class="card-Title x3dRendersubtitle drinksText">
-                                            <h3>Render and Lighting Options</h3>
+                                        <div class="card-Title drinksText">
+                                            <h3>Render Options</h3>
                                         </div>
                                         <div>
                                             <button type="button" class="btn btn-outline-success btn-responsive" onclick="poly();">Polygon</button>
                                             <button type="button" class="btn btn-outline-primary btn-responsive" onclick="wireframe();">Wireframe</button>
                                             <button type="button" class="btn btn-outline-info btn-responsive" onclick="vertex();">Vertex</button>
                                         </div>
-                                        <div class="card-text x3dRenderDescription drinksText">
+                                        <div class="card-text drinksText">
                                             <p>These buttons select a limited number of render options.</p>
                                         </div>
                                     </div>
@@ -394,9 +414,6 @@
                             </div>
                         </div>
                         <div>
-                            <p class="card-text">
-                                Collapsable button groups from <a href="https://getbootstrap.com/docs/4.0/components/collapse/">Bootstrap documentation</a>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -422,9 +439,7 @@
             <p><span class="align-baseline"></span>&copy 2023 Web 3D Applications | <a href="javascript:changeLook()">Restyle</a> | <a href="javascript:changeBack()">Reset</a></p>
         </div>
         <div class="social">
-            <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
-            <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
-            <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+            <p><span class="align-baseline"></span>Github link to models: <a href="https://github.com/rietse/3D-Web-App/tree/main/3dmodels"><i class="fab fa-github-square fa-2x"></i></a></p>
         </div>
     </div>
 </nav>
